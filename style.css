@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color:  hsl(217, 19%, 38%);
+}
+main
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.advice
+{
+    height: 40vh;
+    width: 60vh;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    text-align: center;
+}
+.advice-text
+{
+    max-width: 80%;
+    margin: 20px 40px;
+    color: hsl(193, 38%, 86%);
+}
+.advice-no
+{
+    margin-top: 25px;
+    font-size: 16px;
+    color: hsl(150, 100%, 66%);
+}
+.btn
+{
+    background-color: hsl(150, 100%, 66%);
+    border: 0px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-top:280px;
+}
